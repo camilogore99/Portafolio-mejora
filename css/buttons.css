@@ -1,0 +1,69 @@
+/* button View My Work */
+.main-botton {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: tomato;
+  letter-spacing: 4px;
+  font-size: 22px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
+}
+.main-botton:hover {
+  background: tomato;
+  box-shadow: 0 0 10px tomato, 0 0 40px tomato, 0 0 80px;
+  transition-delay: 1s;
+}
+.main-botton span {
+  position: absolute;
+  display: block;
+}
+#span1 {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, tomato);
+}
+.main-botton:hover #span1 {
+  left: 100%;
+  transition: 1s;
+}
+#span3 {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, tomato);
+}
+.main-botton:hover #span3 {
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+#span2 {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, tomato);
+}
+.main-botton:hover #span2 {
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+#span4 {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, tomato);
+}
+.main-botton:hover #span4 {
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}
+/* section about*/
