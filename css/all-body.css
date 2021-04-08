@@ -1,15 +1,24 @@
-html,
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   padding: 0;
   background-color: black;
+}
+p {
+  text-align: center;
+}
+span {
+  font-weight: 50px;
 }
 h1 {
   font-size: 32px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 section {
-  height: 100vh;
+  min-height: 100vh;
+  border-bottom: solid white;
 }
 img {
   height: 100%;

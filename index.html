@@ -5,28 +5,30 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Document</title>
+      <title>Portafolio Camilo</title>
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+      <link rel="stylesheet" href="./css/section-skills.css">
       <link rel="stylesheet" href="./css/section-home.css">
       <link rel="stylesheet" href="./css/section-about-me.css">
-      <link rel="stylesheet" href="./css/all-body.css">
+      <link rel="stylesheet" href="./css/utilities.css">
       <link rel="stylesheet" href="./css/buttons.css">
       <link rel="stylesheet" href="./css/cards.css">
+      <link rel="stylesheet" href="./css/all-body.css">
 </head>
 
 <body>
       <div class="container">
             <!-- section home -->
-            <section class="home">
+            <section id="home" class="home">
                   <div class="row">
-                        <div class="flex  col-xs-10 col-sm-12 col-md-12 ">
+                        <div class="flex col-12 col-xs-10 col-sm-12 col-md-12 ">
                               <div class="text">
                                     <h1 class="main-title"> I'm <span class="name">Camilo Gonzalez</span><br>
                                           I'm a Full-stack web developer</h1>
                               </div>
-                              <div class="button button-home">
-                                    <a class="main-botton" href="/">
+                              <div class="button button-about">
+                                    <a class="main-botton" href="#about">
                                           <span id="span1"></span>
                                           <span id="span2"></span>
                                           <span id="span3"></span>
@@ -37,28 +39,29 @@
                   </div>
             </section>
             <!-- section Abot Me  -->
-            <section class="about">
-                  <h3 class="title-section">Abot Me</h3>
-                  <div class="father-about col-xs-10 col-sm-10 col-md-10 col-lg-10">
-                        <div class="image col-md-6">
-                              <img src="./img/img-sobre-programacion.jpeg" alt="">
+            <section id="about" class="about d-j-a">
+                  <div class="row mt-5">
+                        <div class="image col-10 col-sm-10 col-md-12 col-lg-6">
+                              <img class="image-about" src="./img/img-sobre-programacion.jpeg" alt="">
                         </div>
-                        <div class="info-personal col-sm-10 col-md-6 col-lg-6">
+                        <div class="info-personal col-sm-10 col-md-12 col-lg-6">
                               <div class="card ">
                                     <div class="card-body">
                                           <h2>About me </h2>
-                                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio facere dicta
-                                          nostrum
-                                          quas distinctio neque, officia maxime itaque pariatur earum inventore velit
-                                          nisi
-                                          esse! Temporibus mollitia itaque nisi culpa suscipit?
-                                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi voluptate quo
-                                          quam
-                                          repellendus, possimus voluptates, voluptatum rem fuga cum earum deserunt
-                                          quibusdam
-                                          sit in voluptas harum vel assumenda culpa quidem?
+                                          <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio facere
+                                                dicta nostrum quas distinctio neque, officia maxime itaque pariatur
+                                                earum inventore velit nisi
+                                                esse! Temporibus mollitia itaque nisi culpa suscipit?
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                                                voluptate quo
+                                                quam
+                                                repellendus, possimus voluptates, voluptatum rem fuga cum earum deserunt
+                                                quibusdam
+                                                sit in voluptas harum vel assumenda culpa quidem?
+                                          </p>
                                     </div>
-                                    <div class="button">
+                                    <div class="button button-about">
                                           <a class="main-botton" href="/">
                                                 <span id="span1"></span>
                                                 <span id="span2"></span>
@@ -69,92 +72,103 @@
                               </div>
                         </div>
                   </div>
-            </section>
-
-            <section class="knowledge in">
-                  <div class="container">
-                        <h3 class="title-section">knowledge In</h3>
-                        <div class="row">
-                              <div class="card col-11 col-sm-10 col-md-11 col-lg-6">
-                                    <div class="card-body">
-                                          <h3>Html</h3>
-                                          <div class="dis row">
-                                                <img class="col-md-5" src="./img/HTML5.jpg" alt="img-js">
-                                                <p class="col-md-7 lorem">
-                                                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id enim
-                                                      fugiat,
-                                                      repudiandae deserunt, corporis sapiente cum ut illo officiis
-                                                      quisquam autem nesciunt et. Dolores
-                                                      minima dolorum adipisci recusandae quidem ea.
-                                                </p>
-                                          </div>
+      </div>
+      </section>
+      <!-- section My skills  -->
+      <section>
+            <div class="container mt-5">
+                  <h2 class="text-center">My <span class="text-primary">skills</span></h2>
+                  <div class="row mt-5 justify-content-center">
+                        <div class="col-md-6">
+                              <p class="text-center text-secondary">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ut iste
+                                    repudiandae
+                                    vero.
+                              </p>
+                        </div>
+                  </div>
+                  <div class="row text-secondary">
+                        <div class="col-md-6 mt-3">
+                              <div>
+                                    <div class="display-flex justify-content-space-between">
+                                          <span>HTML5</span>
+                                          <span>90%</span>
+                                    </div>
+                                    <div class="progress-container space-top">
+                                          <div class="progress percent-90"></div>
                                     </div>
                               </div>
-                              <div class="card col-11 col-sm-10 col-md-11 col-lg-6">
-                                    <div class="card-body">
-                                          <h3>Css</h3>
-                                          <div class="dis row">
-                                                <img class="col-md-5" src="./img/imagen-css.png" alt="img-js">
-                                                <p class="col-md-7 lorem">
-                                                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id enim
-                                                      fugiat,
-                                                      repudiandae
-                                                      deserunt,
-                                                      corporis sapiente cum ut illo officiis quisquam autem nesciunt et.
-                                                      Dolores
-                                                      minima
-                                                      dolorum
-                                                      adipisci recusandae quidem ea.
-
-                                                </p>
-                                          </div>
+                              <div class="space-top-lg">
+                                    <div class="display-flex justify-content-space-between">
+                                          <span>CSS 3</span>
+                                          <span>90%</span>
+                                    </div>
+                                    <div class="progress-container space-top">
+                                          <div class="progress percent-90"></div>
                                     </div>
                               </div>
-                              <div class="card col-11 col-sm-10 col-md-11 col-lg-6">
-                                    <div class="card-body">
-                                          <h3>Javascript</h3>
-                                          <div class="dis row">
-                                                <img class="col-md-5" src="./img/imagen-de-javascript.png" alt="img-js">
-                                                <p class="col-md-7 lorem">
-                                                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id enim
-                                                      fugiat,
-                                                      repudiandae
-                                                      deserunt,
-                                                      corporis sapiente cum ut illo officiis quisquam autem nesciunt et.
-                                                      Dolores
-                                                      minima
-                                                      dolorum
-                                                      adipisci recusandae quidem ea.
-
-                                                </p>
-                                          </div>
+                              <div class="space-top-lg">
+                                    <div class="display-flex justify-content-space-between">
+                                          <span>JAVASCRIPT</span>
+                                          <span>80%</span>
+                                    </div>
+                                    <div class="progress-container space-top">
+                                          <div class="progress percent-80"></div>
                                     </div>
                               </div>
-                              <div class="card col-11 col-sm-10 col-md-11 col-lg-6">
-                                    <div class="card-body">
-                                          <h3>React</h3>
-                                          <div class="dis row">
-                                                <img class="col-md-5" src="./img/react-img.png" alt="img-js">
-                                                <p class="col-md-7 lorem">
-                                                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id enim
-                                                      fugiat,
-                                                      repudiandae
-                                                      deserunt,
-                                                      corporis sapiente cum ut illo officiis quisquam autem nesciunt et.
-                                                      Dolores
-                                                      minima
-                                                      dolorum
-                                                      adipisci recusandae quidem ea.
-
-                                                </p>
-                                          </div>
+                              <div class="space-top-lg">
+                                    <div class="display-flex justify-content-space-between">
+                                          <span>REACT</span>
+                                          <span>50%</span>
+                                    </div>
+                                    <div class="progress-container space-top">
+                                          <div class="progress percent-50"></div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                              <div>
+                                    <div class="display-flex justify-content-space-between">
+                                          <span>NODE JS</span>
+                                          <span>10%</span>
+                                    </div>
+                                    <div class="progress-container space-top">
+                                          <div class="progress percent-10"></div>
+                                    </div>
+                              </div>
+                              <div class="space-top-lg">
+                                    <div class="display-flex justify-content-space-between">
+                                          <span>PYTHON</span>
+                                          <span>20%</span>
+                                    </div>
+                                    <div class="progress-container space-top">
+                                          <div class="progress percent-20"></div>
+                                    </div>
+                              </div>
+                              <div class="space-top-lg">
+                                    <div class="display-flex justify-content-space-between">
+                                          <span>SQL SERVER</span>
+                                          <span>10%</span>
+                                    </div>
+                                    <div class="progress-container space-top">
+                                          <div class="progress percent-10"></div>
+                                    </div>
+                              </div>
+                              <div class="space-top-lg">
+                                    <div class="display-flex justify-content-space-between">
+                                          <span>DEVELOPER FULL-STACK</span>
+                                          <span>48%</span>
+                                    </div>
+                                    <div class="progress-container space-top">
+                                          <div class="progress percent-50"></div>
                                     </div>
                               </div>
                         </div>
                   </div>
-            </section>
+            </div>
+      </section>
 
-            <section class="contact"></section>
+      <section class="contact"></section>
       </div>
 
       <script src=""></script>

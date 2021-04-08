@@ -1,23 +1,17 @@
 /* section Home  */
-section {
-  height: 100vh;
+.home {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(to right, #005b9849, #582a39ab);
 }
+
 .flex {
-  /* align-items: center; */
   color: white;
-  /* flex-direction: column; */
-  /* justify-content: center; */
-  /* margin-top: 205px; */
 }
 .name {
   color: tomato;
 }
 .text {
-  padding-left: 50px;
-}
-.button-home {
   padding-left: 50px;
 }
