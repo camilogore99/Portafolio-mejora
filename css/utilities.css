@@ -1,3 +1,36 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+p {
+  text-align: center;
+}
+span {
+  font-weight: 50px;
+}
+h1 {
+  font-size: 32px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section {
+  min-height: 100vh;
+  border-bottom: solid white;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.margin-bottom {
+  margin-bottom: 19px;
+}
 .display-flex {
   display: flex;
 }
