@@ -4,15 +4,18 @@ html {
 body {
   margin: 0;
   padding: 0;
+  color: white;
   background-color: black;
 }
 p {
   text-align: center;
+  color: white;
 }
 span {
   font-weight: 50px;
 }
-h1 {
+h1 h2 {
+  color: white;
   font-size: 32px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -27,6 +30,9 @@ img {
 .row {
   display: flex;
   flex-wrap: wrap;
+}
+.flex-direction-column {
+  flex-direction: column;
 }
 .margin-bottom {
   margin-bottom: 19px;
@@ -49,7 +55,13 @@ img {
 .font-weight-500 {
   font-weight: 500;
 }
+.text-decoration-none {
+  text-decoration: none;
+}
 /* Spaces */
+.space-right {
+  margin-right: 15px;
+}
 .space-top {
   margin-top: 10px;
 }
